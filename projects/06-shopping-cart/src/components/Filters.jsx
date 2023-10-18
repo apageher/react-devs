@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useId, useState } from 'react'
+import { useId } from 'react'
 import './Filters.css'
 import { useFilters } from '../hooks/useFilters'
 
