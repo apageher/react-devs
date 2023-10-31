@@ -28,7 +28,7 @@ export const UsersList: React.FC<Props> = ({ users, showColors, deleteUser, chan
                     return (
                         <tr key={user.email} style={{ backgroundColor: color }}>
                             <td>
-                                <img src={user.picture.thumbnail}></img>
+                                <img src={user?.picture?.thumbnail}></img>
                             </td>
                             <td>{user.name.first}</td>
                             <td>{user.name.last}</td>
